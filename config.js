@@ -67,7 +67,7 @@ global.fglog = 'XLICON.jpg'
 global.thumb = fs.readFileSync('./XLICON.jpg')
 
 
-global.wait = '*🕣 _XLICON IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.wait = '*🕣 _GETTING FILE READY..._*\n*▰▰▰▱▱▱▱▱⭐*'
 global.rwait = '📂'
 global.dmoji = '👽'
 global.done = '✔️'
