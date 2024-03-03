@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (X-BOT)",
-  "description": " Whatsapp bot.",
+  "name": "W H I T E V O R T E X 9 9",
+  "description": "Recoded Release.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/salmanytofficial/XLICON-V2-MD/main",
+  "repository": "https://github.com/Wota777FF/XLICON-V2-MD/main",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
