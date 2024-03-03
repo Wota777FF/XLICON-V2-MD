@@ -13,7 +13,7 @@ import {
 
   
    let groupmenu = `
-   ✦ ───『 *group* 』─── ⚝
+   ✦ ───『 *Group 💠* 』─── ⚝
   ➫ .getbio <@tag/reply>  Ⓛ
   ➫ .animequote
   ➫ .Setdesc <text>
@@ -41,10 +41,10 @@ import {
   ➫ .warn @user
   ➫ .warns
   ➫ .main
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let ownermenu = `
-  ✦ ───『 *owner* 』─── ⚝
+  ✦ ───『 *Owner 💫* 』─── ⚝
   ◈ .addprem <@tag>
   ◈ .addowner @user
   ◈ .allow <@tag>
@@ -73,10 +73,10 @@ import {
   ◈ .config
   ◈ .listban
   ◈ .deleteplugin <name>
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let funmenu = `
-  ✦ ───『 *fun* 』─── ⚝
+  ✦ ───『 *Fun 💠* 』─── ⚝
   ◈ .afk <reason>
   ◈ .tomp3
   ◈ .toav
@@ -95,10 +95,10 @@ import {
   ◈ .image
   ◈ .meme
   ◈ .quote
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let reactmenu = `
-  ✦ ───『 *reaction* 』─── ⚝
+  ✦ ───『 *React 💠* 』─── ⚝
   ◈ .bully @tag
   ◈ .cuddle @tag
   ◈ .cry @tag
@@ -125,10 +125,10 @@ import {
   ◈ .poke @tag
   ◈ .dance @tag
   ◈ .cringe @tag
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let dlmenu = `
-  ✦ ───『 *downloader* 』─── ⚝
+  ✦ ───『 *Download 💠* 』─── ⚝
   ◈ .facebook <url>
   ◈ .gdrive 🅟
   ◈ .gitclone <url>
@@ -148,10 +148,10 @@ import {
   ◈ .ytsearch
   ◈ .ytmp4 <yt-link>
   ◈ .wallpaper <query>
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let gamemenu = `
-  ✦ ───『 *game* 』─── ⚝
+  ✦ ───『 *Games 💠* 』─── ⚝
   ◈ .slot <amount>
   ◈ .chess [from to]
   ◈ .chess delete
@@ -162,9 +162,9 @@ import {
   ◈ .Maths <modes>
   ◈ .ppt <rock/paper/scissors>
   ◈ .tictactoe <tag number>
-  ╰──────────⳹`
+  ╰───────────⍟`
   let logomenu = `
-  ✦ ───『 *maker* 』─── ⚝
+  ✦ ───『 *Creative* 』─── ⚝
   ◈ .blur
   ◈ .difuminar2
   ◈ .hornycard
@@ -188,10 +188,10 @@ import {
   ◈ .tweet <comment>
   ◈ .lolicon
   ◈ .ytcomment <comment>
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let stickermenu = `
-  ✦ ───『 *sticker* 』─── ⚝
+  ✦ ───『 *Sticker 💠* 』─── ⚝
   ◈ .emojimix <emoji+emoji>
   ◈ .getsticker
   ◈ .smaker
@@ -211,10 +211,10 @@ import {
   ◈ .attp2
   ◈ .attp3
   ◈ .take <name>|<author>
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let audiomenu = `
-  ✦ ───『 *audio* 』─── ⚝
+  ✦ ───『 *Audio 💠* 』─── ⚝
   ◈ .bass [vn]
   ◈ .blown [vn]
   ◈ .deep [vn]
@@ -227,18 +227,18 @@ import {
   ◈ .slow [vn]
   ◈ .smooth [vn]
   ◈ .tupai [vn]
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   
   let newsmenu = `
-  ✦ ───『 *news* 』─── ⚝
+  ✦ ───『 *News 💠* 』─── ⚝
   ◈ .news
   ◈ .technews
   ◈ .ndtv
-  ╰──────────⳹
+  ╰───────────⍟
   `
   let economy = `
-  ✦ ───『 *economy* 』─── ⚝
+  ✦ ───『 *Economic 💠* 』─── ⚝
   ◈ .addgold <@user>
   ◈ .addxp <@user>
   ◈ .bank
@@ -257,9 +257,9 @@ import {
   ◈ .wallet
   ◈ .withdraw
   ◈ .work
-  ╰──────────⳹`
+  ╰───────────⍟`
   let animemenu = `
-  ✦ ───『 *anime* 』─── ⚝
+  ✦ ───『 *Anime 💠* 』─── ⚝
   ◈ .anime
   ◈ .akira
   ◈ .akiyama
@@ -302,10 +302,10 @@ import {
   ◈ .loli
   ◈ .pokedex <pokemon>
   ◈ .trace
-  ╰──────────⳹
+  ╰───────────⍟
   `
   let nsfwmenu = `
-  ✦ ───『 *nsfw* 』─── ⚝
+  ✦ ───『 *Nsfw 💠* 』─── ⚝
   ◈ .genshin
   ◈ .swimsuit
   ◈ .schoolswimsuit
@@ -386,10 +386,10 @@ import {
   ◈ .pack
   ◈ .xvid
   ◈ .xnxx
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let toolsmenu = `
-  ✦ ───『 *tools* 』─── ⚝
+  ✦ ───『 *Tools 💠* 』─── ⚝
   ◈ .nowa
   ◈ .qr <text>
   ◈ .qrcode <text>
@@ -426,10 +426,10 @@ import {
   ◈ .tts <lang> <task>
   ◈ .wa
   ◈ .wikipedia
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let Aimenu = `
-  ✦ ───『 *AI* 』─── ⚝
+  ✦ ───『 *Intelligence 💠* 』─── ⚝
   ◈ .bing
   ◈ .dalle
   ◈ .chatgpt
@@ -439,16 +439,16 @@ import {
   ◈ .ai
   ◈ .bard
   ◈ .alexa
-  ╰──────────⳹
+  ╰───────────⍟
   `
   let religionmenu = `
-    ✦ ───『 *plugin* 』─── ⚝
+    ✦ ───『 *Plugins ⚙️* 』─── ⚝
   ◈ .plugins
   ◈ .install <Gist URL>
-  ╰──────────⳹`
+  ╰───────────⍟`
   
   let botmenu = `
-  ✦ ───『 *Bot Menu* 』─── ⚝
+  ✦ ───『 *Bot Menu 💠* 』─── ⚝
   ◈ .ping
   ◈ .runtime
   ◈ .script
@@ -468,13 +468,13 @@ import {
   ◈ .reg <name.age>
   ◈ .mysn
   ◈ .unreg 
-  ╰──────────⳹
+  ╰───────────⍟
   `
   let pluginmenu = `
-  ✦ ───『 *plugin* 』─── ⚝
+  ✦ ───『 *Plugins ⚙️* 』─── ⚝
   ◈ .plugins
   ◈ .install <Gist URL>
-  ╰──────────⳹
+  ╰───────────⍟
   `
 
   const handler = async (m, {
@@ -534,43 +534,40 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-  「 ${botname} 🎁XMD 」\n
+  「 *${botname} volt 4.4.4 🔗*  」\n
   ┌─❖
-  │ *_Hi_* 👋 
-  └┬❖ *_${name}_* Senpai
-  ┌┤✑ *${ucpn}* 😄
+  │ *_𝙂𝙍𝙀𝙀𝙏𝙄𝙉𝙂𝙎_* 
+  └┬❖ *_${name}_* 
+  ┌┤✑ *${ucpn}* 
   │└────────────┈ ⳹
   │
-  └─ 𝞑𝞗𝙏 𝞘𝞜𝙁𝞗
-  │𝐁𝐎𝐓 : ${botname}
-  │𝐌𝐨𝐝𝐞 : ${mode}
-  │𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${platform}
-  │𝐇𝐨𝐬𝐭 : Kali linux
-  │𝐓𝐲𝐩𝐞 : NodeJs
-  │𝐁𝐚𝐢𝐥𝐞𝐲𝐬 : Multi Device
-  │𝐏𝐫𝐞𝐟𝐢𝐱 : [ *${usedPrefix}* ]
-  │𝐒𝐩𝐞𝐞𝐝 : 0.00001 miliseconds
-  │𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${muptime}
-  │𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : ${totalreg}
+  └─ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉─⍟
+  │Bot       : ${botname}
+  │Mode      : ${mode}
+  │PlatForm  : ${platform}
+  │Host      : Kali linux
+  │Type      : NodeJs
+  │Baileys   : Multi Device
+  │Prefix    : [ *${usedPrefix}* ]
+  │Speed     : -4.45 miliseconds
+  │Runtime   : ${muptime}
+  │Database  : ${totalreg}
   │  ${readMore}
   └─ 𝙐𝙎𝞢𝞒 𝞘𝞜𝙁𝞗
-  │𝐍𝐚𝐦𝐞 : ${name}
-  │𝐆𝐨𝐥𝐝 : ${credit}
-  │𝐑𝐨𝐥𝐞 : ${role}
-  │𝐋𝐞𝐯𝐞𝐥 : ${level}
-  │𝐗𝐩 : ${exp}
+  │Name : ${name}
+  │Gold : ${credit}
+  │Role : ${role}
+  │Level : ${level}
+  │Exp : ${exp}
   │
   └─ 𝞘𝞜𝙁𝞗 𝘾𝞛𝘿
   │ *${totalfeatures}* Commands
   │
-  └─ 𝞘𝞜𝙁𝞗 
-  │ *_Reply With the Number_*
-  │ *_To Get Respected Menu_*
   │${readMore}
-  ┬────────────┈ ⳹
-  │✑  Please Reply *MENU Number*
-  │✑  Given *BELOW*
-┌──────────────┈ ⳹
+  └─┬────────────┈─⍟
+    │✑  Please Reply *MENU Number*
+    │✑  Given *BELOW*
+┌───────────────┈─⍟
 │ *1.*  ❏ Bot Menu
 │ *2.*  ❏ Owner Menu
 │ *3.*  ❏ Group Menu
