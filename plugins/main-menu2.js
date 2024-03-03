@@ -63,7 +63,7 @@ let str = `
 ┃ 🏆  *Rank:* ${role}
 ┃ 🎮  *Experience:* ${exp} 
 ╰────────────────────────────⍟
-*Need help ? type ${usedPrefix} List to get commands prompt`
+*Need help ? type ${usedPrefix} List to get commands prompt*`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
