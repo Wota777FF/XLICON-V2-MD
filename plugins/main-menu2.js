@@ -39,33 +39,31 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
-🌠 *_Xlicon team quote of the day: ${quote}_* 🌠
+🌠 *_Vortex team quote of the day: ${quote}_* 🌠
 
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:* Salman Ahmad
-┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Host:* Kali Linix
-┃ 📣  *Prefix:* ${usedPrefix} 
-┃ 🕓  *Uptime:* ${uptime}
-┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
-┃ 📚  *Total Users:* ${totaluser} 
-╰───────────────⍟
+┏━━⚙️ *_STATUS:_* ⛓️━━┓
+┃ ⛓️  *Bot Name:* ${botname} 
+┃ ⛓️  *Host:* Kali Linux
+┃ ⛓️  *Prefix:* ${usedPrefix} 
+┃ ⛓️  *Runtime:* ${uptime}
+┃ ⛓️  *Database:* ${rtotalreg} of ${totaluser} 
+┃ ⛓️  *Total Users:* ${totaluser} 
+╰────────────────────────────⍟
 
-┏━━⏰ _Today's Sauce!_ ⏰━┓
+┏━━⏰ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉 ⏰━┓
 ┃ 📆  *Today's Date:* ${date} 
 ┃ ⏲️  *Current Time:* ${wib} 
-╰───────────────⍟
+╰────────────────────────────⍟
 
-┏━😎 _User Info:_ 😎━┓
-┃ 👾  *User Tag:* ${taguser} 
+┏━ 👤 𝙐𝙎𝙀𝙍 𝙂𝙀𝙉𝙀𝙍𝘼𝙇 ⛓️━┓
+┃ 👾  *User:* ${taguser} 
 ┃ 😇  *Name:* ${name} 
 ┃ 🌟  *Master Mind:* ${author} 
 ┃ 💎  *Diamonds:* ${diamond} 
 ┃ 🏆  *Rank:* ${role}
-┃ 🎮  *XP:* ${exp} 
-╰───────────────⍟
-😇 *_If You need help, Just do this, use ${usedPrefix}list or ${usedPrefix}help2. And enjoy!_* 😇
-`
+┃ 🎮  *Experience:* ${exp} 
+╰────────────────────────────⍟
+*Need help ? type ${usedPrefix} List to get commands prompt`
 
 
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rpyt)
