@@ -5,7 +5,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     // Sound
     let name = m.pushName || conn.getName(m.sender)
     var vn = "./Assets/ALIVE.mp3"
-    let url = "https://github.com/abrahamdw882"
+    let url = "https://github.com/Wota777FF"
     let murl = "https://YouTube.com"
     let img = "https://telegra.ph/file/b1b157e944010efebf1d7.jpg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -21,8 +21,8 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "THE XLICON-V2 IS ALIVE 🌟",
-          body: "XLICON BOT",
+          title: "Vortex444 is Alive & Running ⚙️✨",
+          body: "W H I T E V O R T E X 9 9",
           thumbnailUrl: img,
           sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
           mediaType: 1,
