@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['918360234087', 'W H I T E 4 4 4  ? ?', true], 
-  ['233208179431', 'Abraham Dwamena', true],
+  ['233558111386', 'Law Shambles', true],
   ['923184070915', '𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -(𝘼𝙝𝙢𝙢𝙞)', true], 
   ['94789481495', '𝙼𝚉𝙽 𝙺𝙸𝙽𝙶 ⚡', true],
   
@@ -16,9 +16,9 @@ global.owner = [
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['923184070915', '94789481495', '923184474176','233531910067','233208179431'] 
-global.prems = ['923184070915','233208179431','94789481495', '918360234087','233531910067']
-global.allowed = ['923184070915', '233208179431', '94789481495', '918360234087','233531910067']
+global.mods = ['233558111386', '94789481495', '923184474176','233531910067','233208179431'] 
+global.prems = ['233558111386','233208179431','94789481495', '918360234087','233531910067']
+global.allowed = ['233558111386', '233208179431', '94789481495', '918360234087','233531910067']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -53,10 +53,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'W H I T E V O R T E X 4 4 4'
+global.botname = 'law shambles'
 global.premium = 'true'
-global.packname = 'OnlyGods' 
-global.author = 'White FF' 
+global.packname = 'law' 
+global.author = 'shambles FF' 
 global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
 global.igfg = '▢ Consider following:\nhttps://whatsapp.com/channel/0029VaSFe9J7oQhb9v6nqC2G\n' 
 global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
