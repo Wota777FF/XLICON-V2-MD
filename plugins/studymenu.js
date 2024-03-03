@@ -5,7 +5,7 @@ let pp = './Assets/XLICON-V2.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `
-╭─⍟📚 *STUDY MENU* 📚⍟─┐
+╭─⍟👤 *Study* 🖋️⍟────┐
 ┊ ꒰ ͜͡➸${usedPrefix}bible
 ┊ ꒰ ͜͡➸${usedPrefix}quran  
 ┊ ꒰ ͜͡➸${usedPrefix}gpt
@@ -16,7 +16,7 @@ let lkr = `
 ┊ ꒰ ͜͡➸${usedPrefix}aisearch 
 ┊ ꒰ ͜͡➸${usedPrefix}define
 ┊ ꒰ ͜͡➸${usedPrefix}element
-└──📱•✧✧✧✧✧✧✧•📱──┘`
+└──🖋️•✧✧✧✧✧✧✧•✨─────┘`
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react(done)
 }
