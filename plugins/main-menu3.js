@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+if (!(who in global.db.data.users)) throw `✳️ The user is not found in the database`
 let pp = (thumb)
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
@@ -36,27 +36,27 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = ` *☑️ XLICON -V2 BOT☑️*
+let str = ` *💠  𝙑 𝙊 𝙍 𝙏 𝙀 𝙓 4 4 4 ⚙️*
 
 
-╭◦⭑⭑⭑★✪ MENU-3 ✪★⭑⭑⭑➛
+╭◦⭑⭑⭑★✪『 *Menu III* 』✪★⭑⭑⭑⭑⭑⭑⭑⭑⭑➛
 │
-│🔰 ◦➛✫ - 「${usedPrefix}groups
-│📚 ◦➛✫ - 「${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
-│🛡️ ◦➛✫ - 「${usedPrefix}𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶
-│💌 ◦➛✫ - 「${usedPrefix}𝘉𝘰𝘵𝘮𝘦𝘯𝘶 
-│🧬 ◦➛✫ - 「${usedPrefix}𝘎𝘳𝘰𝘶𝘱𝘮𝘦𝘯𝘶
-│📥 ◦➛✫ - 「${usedPrefix}𝘋𝘭𝘮𝘦𝘯𝘶
-│🧰 ◦➛✫ - 「${usedPrefix}𝘛𝘰𝘰𝘭𝘮𝘦𝘯𝘶
-│🎨 ◦➛✫ - 「${usedPrefix}𝘚𝘵𝘪𝘤𝘬𝘦𝘳𝘮𝘦𝘯𝘶
-│🎉 ◦➛✫ - 「${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
-│🎮 ◦➛✫ - 「${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
-│🎩 ◦➛✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}groups
+│💠 ◦➛✫ - 「${usedPrefix}𝘚𝘵𝘶𝘥𝘺𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘖𝘸𝘯𝘦𝘳𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘉𝘰𝘵𝘮𝘦𝘯𝘶 
+│💠 ◦➛✫ - 「${usedPrefix}𝘎𝘳𝘰𝘶𝘱𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘋𝘭𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘛𝘰𝘰𝘭𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘚𝘵𝘪𝘤𝘬𝘦𝘳𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘍𝘶𝘯𝘮𝘦𝘯𝘶 
+│💠 ◦➛✫ - 「${usedPrefix}𝘎𝘢𝘮𝘦𝘮𝘦𝘯𝘶
+│💠 ◦➛✫ - 「${usedPrefix}𝘓𝘰𝘨𝘰𝘮𝘦𝘯𝘶
 │ *${usedPrefix}list ғᴏʀ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ*
 │ *${greeting}*
-│ *MADE BY XLICON TEAM*
-╰━━━━━━━━━━━━━━━━━━╯
-📚 *_Quote of the day: ${quote}_* 📚
+│ *© 2024 WhiteVortex™*
+╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+💫 *_Quote of the day: ${quote}_* 🖋️
 `
 
 
@@ -76,8 +76,8 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Karachi').format('HH')
-      let res = "happy early in the day☀️"
+      const time = moment.tz('Asia/Kolkata').format('HH')
+      let res = "Happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
       }
